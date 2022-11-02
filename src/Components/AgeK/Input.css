@@ -1,0 +1,67 @@
+.Age {
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 350px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.result {
+   background-color: rgb(102, 106, 146);
+   width: 300px;
+   height: 150px;
+   border-top-right-radius: 30px;
+   border-top-left-radius: 30px;
+   text-align: center;
+}
+
+input[type=date] {
+   margin-left: 20px;
+   padding-left: 30px;
+   border: none;
+   border-bottom: 2px solid red;
+   width: 200px;
+   height: 50px;
+}
+
+label h3{
+  margin-left: 20px;
+  color: rgb(0, 0, 0);
+}
+
+button {
+   color: blue;
+   margin-left: 0px;
+   border-radius: 2px solid red;
+   width: 200px;
+   height: 50px;
+}
+
+
+
+.App {
+   padding: 5%;
+   text-align: center;
+   font-size: 16px;
+ }
+ .party-popper {
+   width: 200px;
+   height: 200px;
+ }
+ .fade {
+   animation-name: fade-in;
+   animation-duration: 2s;
+ }
+ 
+ @keyframes fade-in {
+   from {
+     opacity: 0;
+   }
+   to {
+     opacity: 100;
+   }
+ }
+ 
+ .age-stats {
+   opacity: 100;
+ }
